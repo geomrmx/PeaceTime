@@ -1,0 +1,9 @@
+# Xcode
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.xcuserstate
+xcuserdata/
+
+Pods/
+*.xcworkspace
