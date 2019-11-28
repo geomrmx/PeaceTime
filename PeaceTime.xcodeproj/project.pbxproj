@@ -21,6 +21,9 @@
 		BD90B27E23902A250045707D /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90B27C23902A250045707D /* ImageViewCell.swift */; };
 		BD90B27F23902A250045707D /* ImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD90B27D23902A250045707D /* ImageViewCell.xib */; };
 		BD90B282239033320045707D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90B281239033320045707D /* Model.swift */; };
+		BD90B285239054FF0045707D /* DropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90B284239054FF0045707D /* DropDownMenu.swift */; };
+		BD90B288239062D20045707D /* PeaceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90B286239062D20045707D /* PeaceViewCell.swift */; };
+		BD90B289239062D20045707D /* PeaceViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD90B287239062D20045707D /* PeaceViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		BD90B27C23902A250045707D /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
 		BD90B27D23902A250045707D /* ImageViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewCell.xib; sourceTree = "<group>"; };
 		BD90B281239033320045707D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BD90B284239054FF0045707D /* DropDownMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownMenu.swift; sourceTree = "<group>"; };
+		BD90B286239062D20045707D /* PeaceViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeaceViewCell.swift; sourceTree = "<group>"; };
+		BD90B287239062D20045707D /* PeaceViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeaceViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,7 @@
 		BD90B25723900BD30045707D /* PeaceTime */ = {
 			isa = PBXGroup;
 			children = (
+				BD90B283239054E00045707D /* DropDown */,
 				BD90B2802390331C0045707D /* DataModel */,
 				BD90B2772390274D0045707D /* CustomCells */,
 				BD90B2722390138E0045707D /* Controllers */,
@@ -119,6 +126,8 @@
 				BD90B279239027AE0045707D /* ContentTableViewCell.xib */,
 				BD90B27C23902A250045707D /* ImageViewCell.swift */,
 				BD90B27D23902A250045707D /* ImageViewCell.xib */,
+				BD90B286239062D20045707D /* PeaceViewCell.swift */,
+				BD90B287239062D20045707D /* PeaceViewCell.xib */,
 			);
 			path = CustomCells;
 			sourceTree = "<group>";
@@ -129,6 +138,14 @@
 				BD90B281239033320045707D /* Model.swift */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		BD90B283239054E00045707D /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				BD90B284239054FF0045707D /* DropDownMenu.swift */,
+			);
+			path = DropDown;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +209,7 @@
 				BD90B27023900C3D0045707D /* MalayalamMN-Regular.ttf in Resources */,
 				BD90B26523900BD40045707D /* LaunchScreen.storyboard in Resources */,
 				BD90B26223900BD40045707D /* Assets.xcassets in Resources */,
+				BD90B289239062D20045707D /* PeaceViewCell.xib in Resources */,
 				BD90B27B239027AE0045707D /* ContentTableViewCell.xib in Resources */,
 				BD90B26023900BD30045707D /* Main.storyboard in Resources */,
 				BD90B27F23902A250045707D /* ImageViewCell.xib in Resources */,
@@ -206,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD90B288239062D20045707D /* PeaceViewCell.swift in Sources */,
 				BD90B282239033320045707D /* Model.swift in Sources */,
 				BD90B25923900BD30045707D /* AppDelegate.swift in Sources */,
 				BD90B25B23900BD30045707D /* SceneDelegate.swift in Sources */,
@@ -213,6 +232,7 @@
 				BD90B276239013CA0045707D /* DailyViewController.swift in Sources */,
 				BD90B27E23902A250045707D /* ImageViewCell.swift in Sources */,
 				BD90B27A239027AE0045707D /* ContentTableViewCell.swift in Sources */,
+				BD90B285239054FF0045707D /* DropDownMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
